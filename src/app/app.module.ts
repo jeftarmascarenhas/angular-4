@@ -12,7 +12,9 @@ import { HeroService } from './hero.service';
 import { MessagesComponent } from './messages/messages.component';
 import { MessagesService } from './messages.service';
 import { AppRoutingModule } from './/app-routing.module';
-import { DashboardComponent } from './dashboard/dashboard.component'; 
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { RegisterHeroComponent } from './register-hero/register-hero.component';
+import { HeroFormComponent } from './hero-form/hero-form.component';
 
 
 @NgModule({
@@ -22,7 +24,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     HeroDetailComponent,
     MyPrimaryComponent,
     MessagesComponent,
-    DashboardComponent
+    DashboardComponent,
+    RegisterHeroComponent,
+    HeroFormComponent
   ],
   imports: [
     BrowserModule,

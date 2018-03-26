@@ -1,0 +1,17 @@
+<h1>Register Hero</h1>
+<div>
+  <form #formHero="ngForm" (submit)="form_register(formHero)">
+    <input type="text" ngModel name="name" placeholder="Name Hero" />
+    <br />
+    <br />
+    <button type="submit">Register</button>
+  </form>
+</div>
+
+<div>
+  <ul>
+    <li *ngFor="let hero of heroes">
+      {{ hero }}
+    </li>
+  </ul>
+</div>
