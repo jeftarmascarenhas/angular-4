@@ -10,6 +10,11 @@ export class DataBindingComponent implements OnInit {
   name: string = 'Jeftar';
   cursoAngular: boolean = true;
   urlImage: string = 'http://lorempixel.com/g/400/200/';
+
+  valorAtual: string = '';
+  valorSalvo;
+
+  isMouseOver: boolean = false;
     
   constructor() { }
 
@@ -22,6 +27,23 @@ export class DataBindingComponent implements OnInit {
 
   getCursoAngular() {
     return false;
+  }
+
+  botaoClicado() {
+    alert('Botão clicado!');
+  }
+
+  onKeyUp(event: KeyboardEvent) {
+    console.log((<HTMLInputElement>event.target).value);
+    this.valorAtual = (<HTMLInputElement>event.target).value;
+  }
+
+  salvarValor(value) {
+    this.valorSalvo = value;
+  }
+
+  onMouseOverOut() {
+    this.isMouseOver = !this.isMouseOver;
   }
 
 }
