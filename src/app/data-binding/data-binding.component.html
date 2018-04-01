@@ -1,0 +1,17 @@
+<section>
+  <article>
+    <h3>Interpolation</h3>
+    <p>{{ name }}</p>
+    <p>{{ 1 + 1 }}</p>
+    <p>{{ 1 + 1 + getValor() }}</p>
+    <p>{{ cursoAngular && getCursoAngular() }}</p>
+  </article>
+  <article>
+    <img src="{{ urlImage }}" alt="" />
+    <img src="{{ urlImage }}" alt="" />
+    <img src="{{ urlImage }}" alt="" />
+    <img src="{{ urlImage }}" alt="" />
+    <img src="{{ urlImage }}" alt="" />
+    <img [src]="urlImage" alt="" />
+  </article>
+</section>

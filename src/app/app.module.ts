@@ -16,6 +16,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterHeroComponent } from './register-hero/register-hero.component';
 
 import { CursosModule } from './cursos/cursos.module';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { CursosModule } from './cursos/cursos.module';
     MyPrimaryComponent,
     MessagesComponent,
     DashboardComponent,
-    RegisterHeroComponent
+    RegisterHeroComponent,
+    DataBindingComponent
   ],
   imports: [
     BrowserModule,
