@@ -13,6 +13,7 @@
     <img src="{{ urlImage }}" alt="" />
     <img src="{{ urlImage }}" alt="" />
     <img [src]="urlImage" alt="" />
+    <img bind-src="urlImage" alt="" />
   </article> -->
   <!-- <article>
     <div>
@@ -54,11 +55,17 @@
     </div>
   </article> -->
 
-  <article>
+  <!-- <article>
     <h3>Event Binding</h3>
     <div>
     <button
       (click)="botaoClicado()"
+      class="btn btn-primary">
+      Me Click
+    </button>
+
+    <button
+      on-click="botaoClicado()"
       class="btn btn-primary">
       Me Click
     </button>
@@ -80,5 +87,5 @@
       [class.highlight]="isMouseOver">
       Passe o mouse sobre mim
     </span>
-  </article>
+  </article> -->
 </section>

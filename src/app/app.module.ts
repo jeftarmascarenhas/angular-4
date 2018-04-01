@@ -14,9 +14,10 @@ import { MessagesService } from './messages.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterHeroComponent } from './register-hero/register-hero.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 import { CursosModule } from './cursos/cursos.module';
-import { DataBindingComponent } from './data-binding/data-binding.component';
+import { MeuFormModule } from './meu-form/meu-form.module';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
     BrowserModule,
     FormsModule,
     AppRoutingModule,
-    CursosModule
+    CursosModule,
+    MeuFormModule
   ],
   providers: [
     HeroService,
