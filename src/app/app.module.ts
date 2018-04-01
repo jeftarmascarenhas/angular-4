@@ -14,7 +14,8 @@ import { MessagesService } from './messages.service';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegisterHeroComponent } from './register-hero/register-hero.component';
-import { HeroFormComponent } from './hero-form/hero-form.component';
+
+import { CursosModule } from './cursos/cursos.module';
 
 
 @NgModule({
@@ -25,13 +26,13 @@ import { HeroFormComponent } from './hero-form/hero-form.component';
     MyPrimaryComponent,
     MessagesComponent,
     DashboardComponent,
-    RegisterHeroComponent,
-    HeroFormComponent
+    RegisterHeroComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CursosModule
   ],
   providers: [
     HeroService,
