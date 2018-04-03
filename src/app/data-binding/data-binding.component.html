@@ -90,9 +90,18 @@
   </article> -->
 </section>
 
-<section class="input-output-properties">
+<!-- <section class="input-output-properties">
   <article>
     <h3>Input/Output Properties</h3>
     <app-cursos2 [nome]="nomeDoCurso"></app-cursos2>
+  </article>
+</section> -->
+
+<section>
+  <article>
+    <h3>Output Property</h3>
+    <contador [valor]="valorInicial"
+    (modouValor)="onMudouValor($event)">
+    </contador>
   </article>
 </section>
