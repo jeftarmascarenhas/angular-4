@@ -18,6 +18,7 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 
 import { CursosModule } from './cursos/cursos.module';
 import { MeuFormModule } from './meu-form/meu-form.module';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { MeuFormModule } from './meu-form/meu-form.module';
     MessagesComponent,
     DashboardComponent,
     RegisterHeroComponent,
-    DataBindingComponent
+    DataBindingComponent,
+    InputPropertyComponent
   ],
   imports: [
     BrowserModule,
