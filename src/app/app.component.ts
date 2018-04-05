@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Iniciando estudos em Angular 4';
+  
+  valor: number = 5;
+  deletarCiclo: boolean = false;
+
+  mudarValor() {
+    this.valor++;
+  }
+
+  destruirClico() {
+    this.deletarCiclo = true;
+  }
 }
