@@ -21,7 +21,7 @@ const routes: Routes = [
     component: HeroDetailComponent
   },
   {
-    path:'heroes',
+    path: 'heroes',
     component: HeroesComponent
   },
   {

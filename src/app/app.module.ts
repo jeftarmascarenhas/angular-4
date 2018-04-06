@@ -21,6 +21,7 @@ import { MeuFormModule } from './meu-form/meu-form.module';
 import { InputPropertyComponent } from './input-property/input-property.component';
 import { OutputPropertyComponent } from './output-property/output-property.component';
 import { CicloComponent } from './ciclo/ciclo.component';
+import { TesteSassComponent } from './teste-sass/teste-sass.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { CicloComponent } from './ciclo/ciclo.component';
     DataBindingComponent,
     InputPropertyComponent,
     OutputPropertyComponent,
-    CicloComponent
+    CicloComponent,
+    TesteSassComponent
   ],
   imports: [
     BrowserModule,
